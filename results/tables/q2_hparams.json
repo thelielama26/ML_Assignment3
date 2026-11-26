@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    "perm",
+    "gray",
+    "patch8"
+  ],
+  "models": [
+    "cnn",
+    "mlp_matched"
+  ],
+  "epochs": 40,
+  "lr": 0.001,
+  "optimizer": "adam",
+  "n_seeds": 3
+}
