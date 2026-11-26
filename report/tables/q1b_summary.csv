@@ -1,0 +1,4 @@
+noise,params,val_acc_peak,val_acc_peak_epoch,val_loss_min_epoch,memorisation_start_epoch,val_acc_at_memorisation_start,true_on_mism_at_peak,final_val_acc,final_fit_wrong
+0.0,14706698,0.5672000050544739,89,4,,,nan,0.5666,nan
+0.4,14706698,0.4814000129699707,5,5,10,0.418,0.44872984290122986,0.3928,0.9954879879951477
+1.0,14706698,0.133200004696846,2,2,11,0.0972,0.12488880008459091,0.0914,0.9896461367607117
