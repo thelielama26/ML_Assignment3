@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/cifar-10-batches-py/
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
