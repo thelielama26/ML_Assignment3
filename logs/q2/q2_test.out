@@ -1,0 +1,9 @@
+condition | model | params | TEST acc | ECE | conf(correct) | conf(wrong)   [mean over seeds]
+clean   cnn            113738 0.7450+-0.0052 0.046 0.850 0.613
+clean   mlp_matched    112330 0.4900+-0.0058 0.042 0.617 0.449
+perm    cnn            113738 0.5071+-0.0067 0.050 0.637 0.474
+perm    mlp_matched    112330 0.4919+-0.0031 0.041 0.615 0.448
+gray    cnn            113738 0.7195+-0.0040 0.046 0.833 0.590
+gray    mlp_matched    112330 0.4093+-0.0013 0.037 0.519 0.392
+patch8  cnn            113738 0.6672+-0.0094 0.056 0.796 0.576
+patch8  mlp_matched    112330 0.4913+-0.0067 0.040 0.617 0.447

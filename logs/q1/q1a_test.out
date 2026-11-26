@@ -1,0 +1,4 @@
+model | params | TEST acc mean +- std
+cnn              113738 | 0.7450 +- 0.0052
+mlp_matched      112330 | 0.4900 +- 0.0058
+mlp_large        454735 | 0.5150 +- 0.0054

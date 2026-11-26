@@ -42,3 +42,15 @@ Reused from Q1a: models `cnn` and `mlp_matched` (definitions in src/q1/models.py
 - Q2c explanations: (E1) CNN relies on colour / low-order local statistics; (E2) CNN relies on the global arrangement
   of local features. Arms: `gray` (colour removed) and `patch8` (16 patches of 8x8 shuffled, fixed permutation).
   Expected: if E2, patch8 hurts the CNN much more than gray; if E1, gray hurts more than patch8. My expectation: E2.
+
+## Q3 pre-registration (written before running Q3)
+Reused from Q1a: fixed classifier = `cnn` seed 0 (checkpoints/q1a/cnn_s0.pt), never fine-tuned.
+- Q3a: conv AE, bottleneck d in {16, 64, 256} (only the two bottleneck linear layers differ); MSE in [0,1] pixel space;
+  Adam lr 1e-3, 40 epochs, batch 128, same init seed. Selection if reconstruction is the only criterion:
+  lowest VALIDATION MSE. Caveat: that criterion trivially favours the largest bottleneck.
+- Q3b: corruption = additive Gaussian noise sigma=0.2 (clipped to [0,1]); DAE has the selected clean AE's architecture,
+  trained on freshly corrupted train images -> clean targets, no labels. Val/test noise is fixed (seeded).
+  Expectation: corrupted images hurt the CNN a lot; DAE recovers most (not all) of the lost accuracy; the clean AE
+  (never trained on noise) recovers less.
+- Q3c: frozen encoders, linear + kNN probes (hyper-parameters chosen on validation). Expectation: reconstruction error
+  improves monotonically with d, but class information saturates earlier, so the two quantities do NOT fully agree.

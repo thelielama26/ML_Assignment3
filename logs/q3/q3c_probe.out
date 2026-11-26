@@ -1,0 +1,16 @@
+{'representation': 'clean_AE_d16', 'd': 16, 'val_recon_mse': np.float64(0.01651046797633171), 'test_recon_mse': 0.016365237534046173, 'linear_C': 0.01, 'linear_val_acc': 0.3284, 'linear_test_acc': 0.3318, 'knn_k': 20, 'knn_val_acc': 0.4228, 'knn_test_acc': 0.4193}
+{'representation': 'clean_AE_d64', 'd': 64, 'val_recon_mse': np.float64(0.007751530967652798), 'test_recon_mse': 0.0076583996415138245, 'linear_C': 0.01, 'linear_val_acc': 0.3828, 'linear_test_acc': 0.3856, 'knn_k': 5, 'knn_val_acc': 0.3918, 'knn_test_acc': 0.3942}
+{'representation': 'clean_AE_d256', 'd': 256, 'val_recon_mse': np.float64(0.002685959916561842), 'test_recon_mse': 0.002651074668392539, 'linear_C': 1.0, 'linear_val_acc': 0.4194, 'linear_test_acc': 0.4253, 'knn_k': 5, 'knn_val_acc': 0.323, 'knn_test_acc': 0.3243}
+/home/hemant/miniconda3/envs/mlassign3/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 300 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=300).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+{'representation': 'DAE_d256 (clean input)', 'd': 256, 'val_recon_mse': nan, 'test_recon_mse': 0.004262344911694527, 'linear_C': 0.1, 'linear_val_acc': 0.4632, 'linear_test_acc': 0.4701, 'knn_k': 5, 'knn_val_acc': 0.3536, 'knn_test_acc': 0.3662}
+{'representation': 'random_untrained_d256', 'd': 256, 'val_recon_mse': nan, 'test_recon_mse': nan, 'linear_C': 1.0, 'linear_val_acc': 0.4238, 'linear_test_acc': 0.4239, 'knn_k': 20, 'knn_val_acc': 0.3162, 'knn_test_acc': 0.3315}
+Spearman(test recon MSE, linear_test_acc) over the 3 clean AEs: -1.00 (rho=-1 => perfect agreement: lower error <-> more class info; n=3 is tiny)
+Spearman(test recon MSE, knn_test_acc) over the 3 clean AEs: 1.00 (rho=-1 => perfect agreement: lower error <-> more class info; n=3 is tiny)

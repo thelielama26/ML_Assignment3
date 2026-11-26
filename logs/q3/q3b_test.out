@@ -1,0 +1,10 @@
+TEST (sigma=0.2, bottleneck=256)
+clean images (reference)   mse 0.00000 | psnr nan | acc 0.7393 | conf 0.780 | nll 0.782
+corrupted                  mse 0.03329 | psnr 14.78 | acc 0.3102 | conf 0.733 | nll 3.130
+clean-AE(corrupted)        mse 0.00704 | psnr 21.52 | acc 0.5382 | conf 0.633 | nll 1.357
+DAE(corrupted)             mse 0.00494 | psnr 23.06 | acc 0.5355 | conf 0.645 | nll 1.426
+clean-AE(clean)            mse 0.00265 | psnr 25.77 | acc 0.6332 | conf 0.694 | nll 1.084
+DAE(clean)                 mse 0.00426 | psnr 23.70 | acc 0.5268 | conf 0.663 | nll 1.484
+fraction of lost accuracy recovered by clean-AE(corrupted): 0.531
+fraction of lost accuracy recovered by DAE(corrupted): 0.525
+selected clean AE test MSE: 0.0026510932948440313
