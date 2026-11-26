@@ -1,0 +1,102 @@
+
+=== noise=0.0 | params=14706698 | corrupted-wrong examples=0 ===
+ep   1 | val_acc 0.460 | clean 0.487 | fit_wrong nan | true_on_mism nan
+ep   5 | val_acc 0.536 | clean 0.705 | fit_wrong nan | true_on_mism nan
+ep  10 | val_acc 0.547 | clean 0.896 | fit_wrong nan | true_on_mism nan
+ep  15 | val_acc 0.556 | clean 0.955 | fit_wrong nan | true_on_mism nan
+ep  20 | val_acc 0.560 | clean 0.980 | fit_wrong nan | true_on_mism nan
+ep  25 | val_acc 0.539 | clean 0.974 | fit_wrong nan | true_on_mism nan
+ep  30 | val_acc 0.555 | clean 0.987 | fit_wrong nan | true_on_mism nan
+ep  35 | val_acc 0.552 | clean 0.988 | fit_wrong nan | true_on_mism nan
+ep  40 | val_acc 0.542 | clean 0.986 | fit_wrong nan | true_on_mism nan
+ep  45 | val_acc 0.557 | clean 0.989 | fit_wrong nan | true_on_mism nan
+ep  50 | val_acc 0.558 | clean 0.992 | fit_wrong nan | true_on_mism nan
+ep  55 | val_acc 0.550 | clean 0.991 | fit_wrong nan | true_on_mism nan
+ep  60 | val_acc 0.550 | clean 0.989 | fit_wrong nan | true_on_mism nan
+ep  65 | val_acc 0.553 | clean 0.987 | fit_wrong nan | true_on_mism nan
+ep  70 | val_acc 0.561 | clean 0.997 | fit_wrong nan | true_on_mism nan
+ep  75 | val_acc 0.551 | clean 0.993 | fit_wrong nan | true_on_mism nan
+ep  80 | val_acc 0.547 | clean 0.992 | fit_wrong nan | true_on_mism nan
+ep  85 | val_acc 0.559 | clean 0.998 | fit_wrong nan | true_on_mism nan
+ep  90 | val_acc 0.559 | clean 0.993 | fit_wrong nan | true_on_mism nan
+ep  95 | val_acc 0.558 | clean 0.992 | fit_wrong nan | true_on_mism nan
+ep 100 | val_acc 0.561 | clean 0.997 | fit_wrong nan | true_on_mism nan
+ep 105 | val_acc 0.553 | clean 0.995 | fit_wrong nan | true_on_mism nan
+ep 110 | val_acc 0.556 | clean 0.998 | fit_wrong nan | true_on_mism nan
+ep 115 | val_acc 0.558 | clean 0.997 | fit_wrong nan | true_on_mism nan
+ep 120 | val_acc 0.548 | clean 0.996 | fit_wrong nan | true_on_mism nan
+ep 125 | val_acc 0.556 | clean 0.997 | fit_wrong nan | true_on_mism nan
+ep 130 | val_acc 0.552 | clean 0.996 | fit_wrong nan | true_on_mism nan
+ep 135 | val_acc 0.559 | clean 0.998 | fit_wrong nan | true_on_mism nan
+ep 140 | val_acc 0.561 | clean 0.994 | fit_wrong nan | true_on_mism nan
+ep 145 | val_acc 0.553 | clean 0.996 | fit_wrong nan | true_on_mism nan
+ep 150 | val_acc 0.567 | clean 0.997 | fit_wrong nan | true_on_mism nan
+{'noise': 0.0, 'params': 14706698, 'val_acc_peak': 0.5672000050544739, 'val_acc_peak_epoch': 89, 'val_loss_min_epoch': 4, 'memorisation_start_epoch': None, 'val_acc_at_memorisation_start': None, 'true_on_mism_at_peak': nan, 'final_val_acc': 0.5666, 'final_fit_wrong': nan}
+
+=== noise=0.4 | params=14706698 | corrupted-wrong examples=16179 ===
+ep   1 | val_acc 0.424 | clean 0.454 | fit_wrong 0.076 | true_on_mism 0.419
+ep   5 | val_acc 0.481 | clean 0.637 | fit_wrong 0.129 | true_on_mism 0.449
+ep  10 | val_acc 0.418 | clean 0.856 | fit_wrong 0.552 | true_on_mism 0.206
+ep  15 | val_acc 0.391 | clean 0.962 | fit_wrong 0.885 | true_on_mism 0.059
+ep  20 | val_acc 0.378 | clean 0.971 | fit_wrong 0.940 | true_on_mism 0.027
+ep  25 | val_acc 0.374 | clean 0.982 | fit_wrong 0.968 | true_on_mism 0.013
+ep  30 | val_acc 0.380 | clean 0.978 | fit_wrong 0.954 | true_on_mism 0.018
+ep  35 | val_acc 0.375 | clean 0.982 | fit_wrong 0.965 | true_on_mism 0.014
+ep  40 | val_acc 0.368 | clean 0.983 | fit_wrong 0.973 | true_on_mism 0.011
+ep  45 | val_acc 0.378 | clean 0.995 | fit_wrong 0.990 | true_on_mism 0.004
+ep  50 | val_acc 0.390 | clean 0.992 | fit_wrong 0.982 | true_on_mism 0.008
+ep  55 | val_acc 0.396 | clean 0.993 | fit_wrong 0.988 | true_on_mism 0.006
+ep  60 | val_acc 0.371 | clean 0.987 | fit_wrong 0.982 | true_on_mism 0.006
+ep  65 | val_acc 0.389 | clean 0.991 | fit_wrong 0.985 | true_on_mism 0.007
+ep  70 | val_acc 0.369 | clean 0.992 | fit_wrong 0.989 | true_on_mism 0.004
+ep  75 | val_acc 0.383 | clean 0.997 | fit_wrong 0.994 | true_on_mism 0.002
+ep  80 | val_acc 0.389 | clean 0.996 | fit_wrong 0.994 | true_on_mism 0.002
+ep  85 | val_acc 0.382 | clean 0.995 | fit_wrong 0.995 | true_on_mism 0.002
+ep  90 | val_acc 0.385 | clean 0.996 | fit_wrong 0.993 | true_on_mism 0.003
+ep  95 | val_acc 0.395 | clean 0.995 | fit_wrong 0.993 | true_on_mism 0.003
+ep 100 | val_acc 0.386 | clean 0.988 | fit_wrong 0.982 | true_on_mism 0.007
+ep 105 | val_acc 0.383 | clean 0.992 | fit_wrong 0.989 | true_on_mism 0.004
+ep 110 | val_acc 0.381 | clean 0.993 | fit_wrong 0.992 | true_on_mism 0.003
+ep 115 | val_acc 0.401 | clean 0.998 | fit_wrong 0.994 | true_on_mism 0.004
+ep 120 | val_acc 0.399 | clean 0.997 | fit_wrong 0.996 | true_on_mism 0.002
+ep 125 | val_acc 0.397 | clean 0.998 | fit_wrong 0.997 | true_on_mism 0.002
+ep 130 | val_acc 0.394 | clean 0.997 | fit_wrong 0.996 | true_on_mism 0.002
+ep 135 | val_acc 0.383 | clean 0.994 | fit_wrong 0.987 | true_on_mism 0.004
+ep 140 | val_acc 0.394 | clean 0.995 | fit_wrong 0.992 | true_on_mism 0.003
+ep 145 | val_acc 0.398 | clean 0.996 | fit_wrong 0.992 | true_on_mism 0.004
+ep 150 | val_acc 0.393 | clean 0.997 | fit_wrong 0.995 | true_on_mism 0.002
+{'noise': 0.4, 'params': 14706698, 'val_acc_peak': 0.4814000129699707, 'val_acc_peak_epoch': 5, 'val_loss_min_epoch': 5, 'memorisation_start_epoch': 10, 'val_acc_at_memorisation_start': 0.418, 'true_on_mism_at_peak': 0.44872984290122986, 'final_val_acc': 0.3928, 'final_fit_wrong': 0.9954879879951477}
+
+=== noise=1.0 | params=14706698 | corrupted-wrong examples=40468 ===
+ep   1 | val_acc 0.111 | clean nan | fit_wrong 0.116 | true_on_mism 0.111
+ep   5 | val_acc 0.108 | clean nan | fit_wrong 0.161 | true_on_mism 0.106
+ep  10 | val_acc 0.100 | clean nan | fit_wrong 0.451 | true_on_mism 0.062
+ep  15 | val_acc 0.089 | clean nan | fit_wrong 0.816 | true_on_mism 0.018
+ep  20 | val_acc 0.096 | clean nan | fit_wrong 0.933 | true_on_mism 0.007
+ep  25 | val_acc 0.102 | clean nan | fit_wrong 0.957 | true_on_mism 0.005
+ep  30 | val_acc 0.099 | clean nan | fit_wrong 0.975 | true_on_mism 0.003
+ep  35 | val_acc 0.096 | clean nan | fit_wrong 0.985 | true_on_mism 0.001
+ep  40 | val_acc 0.098 | clean nan | fit_wrong 0.981 | true_on_mism 0.001
+ep  45 | val_acc 0.089 | clean nan | fit_wrong 0.981 | true_on_mism 0.002
+ep  50 | val_acc 0.103 | clean nan | fit_wrong 0.990 | true_on_mism 0.002
+ep  55 | val_acc 0.097 | clean nan | fit_wrong 0.987 | true_on_mism 0.001
+ep  60 | val_acc 0.105 | clean nan | fit_wrong 0.987 | true_on_mism 0.002
+ep  65 | val_acc 0.100 | clean nan | fit_wrong 0.986 | true_on_mism 0.002
+ep  70 | val_acc 0.095 | clean nan | fit_wrong 0.991 | true_on_mism 0.001
+ep  75 | val_acc 0.090 | clean nan | fit_wrong 0.988 | true_on_mism 0.001
+ep  80 | val_acc 0.094 | clean nan | fit_wrong 0.987 | true_on_mism 0.001
+ep  85 | val_acc 0.095 | clean nan | fit_wrong 0.990 | true_on_mism 0.001
+ep  90 | val_acc 0.094 | clean nan | fit_wrong 0.994 | true_on_mism 0.001
+ep  95 | val_acc 0.095 | clean nan | fit_wrong 0.990 | true_on_mism 0.001
+ep 100 | val_acc 0.098 | clean nan | fit_wrong 0.990 | true_on_mism 0.001
+ep 105 | val_acc 0.103 | clean nan | fit_wrong 0.995 | true_on_mism 0.000
+ep 110 | val_acc 0.099 | clean nan | fit_wrong 0.991 | true_on_mism 0.001
+ep 115 | val_acc 0.103 | clean nan | fit_wrong 0.992 | true_on_mism 0.001
+ep 120 | val_acc 0.097 | clean nan | fit_wrong 0.990 | true_on_mism 0.001
+ep 125 | val_acc 0.094 | clean nan | fit_wrong 0.996 | true_on_mism 0.000
+ep 130 | val_acc 0.099 | clean nan | fit_wrong 0.997 | true_on_mism 0.001
+ep 135 | val_acc 0.100 | clean nan | fit_wrong 0.996 | true_on_mism 0.001
+ep 140 | val_acc 0.099 | clean nan | fit_wrong 0.999 | true_on_mism 0.000
+ep 145 | val_acc 0.100 | clean nan | fit_wrong 0.995 | true_on_mism 0.000
+ep 150 | val_acc 0.091 | clean nan | fit_wrong 0.990 | true_on_mism 0.001
+{'noise': 1.0, 'params': 14706698, 'val_acc_peak': 0.133200004696846, 'val_acc_peak_epoch': 2, 'val_loss_min_epoch': 2, 'memorisation_start_epoch': 11, 'val_acc_at_memorisation_start': 0.0972, 'true_on_mism_at_peak': 0.12488880008459091, 'final_val_acc': 0.0914, 'final_fit_wrong': 0.9896461367607117}

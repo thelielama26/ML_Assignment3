@@ -1,0 +1,4 @@
+model,params
+cnn,113738
+mlp_matched,112330
+mlp_large,454735
