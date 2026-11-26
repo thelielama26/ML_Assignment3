@@ -6,3 +6,6 @@ checkpoints/*
 !checkpoints/.gitkeep
 *.pt
 *.pth
+.data/ 
+# Downloaded CIFAR-10 archive
+/data/raw/cifar-10-python.tar.gz

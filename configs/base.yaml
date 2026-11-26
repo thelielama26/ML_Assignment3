@@ -1,0 +1,6 @@
+roll_number: p26ai0005        # seed = all digits in order -> 260005
+data_root: data/raw
+split_path: data/split/split.npz
+batch_size: 128
+num_workers: 4
+device: cuda                  # falls back to cpu automatically if unavailable
